@@ -318,11 +318,6 @@ nav a {
 }
 
 .parallax-bg-image {
-  /* The image used */
-  background-image: url("bg_img.jpg");
-
-  /* Set a specific height */
-  min-height: 500px; 
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
