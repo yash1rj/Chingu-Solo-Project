@@ -9,7 +9,7 @@ img {
   border: none;
 }
 
-.header {
+.bigHead {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -111,19 +111,19 @@ nav a {
   min-height: 400px;
   margin-bottom: 20px;
 }
-.header-homepage h1 {
+.bigHead-homepage h1 {
   font-size: 5em;
   text-transform: uppercase;
   text-shadow: 2px 2px #000;
   margin: 10px;
 }
 
-.header-homepage p {
+.bigHead-homepage p {
   font-size: 2em;
   text-shadow: 1px 1px #333;
 }
 
-.header-homepage {
+.bigHead-homepage {
   background-image: url("../img/bg-1.jpg");
   min-height: 500px;
 }
@@ -136,20 +136,20 @@ nav a {
   grid-template-columns: 1fr 1fr;
 }
 
-.header-service {
+.bigHead-service {
   background-image: url("../img/bg-2.jpg");
   height: 315px;
   margin: 20px 0;
 }
 
-.header-service h2 {
+.bigHead-service h2 {
   font-size: 3em;
   text-transform: uppercase;
   text-shadow: 2px 2px #aaa;
   margin: 10px;
 }
 
-.header-service p {
+.bigHead-service p {
   font-size: 1.3em;
 }
 
@@ -191,13 +191,13 @@ nav a {
   height: 200px;
 }
 
-.left-form {
+.lefty {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(3, min-content);
   grid-gap: 15px;
 }
-.right-form {
+.righty {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(2, auto);
@@ -242,24 +242,10 @@ nav a {
   grid-gap: 20px;
   justify-content: center;
   padding: 20px;
-}
-
-.footer h2 {
   color: #666;
   font-size: 2em;
   text-align: center;
   font-style: italic;
-}
-
-.footer-info {
-  text-align: center;
-  font-style: italic;
-  color: #999;
-}
-
-.footer hr {
-  width: 100vw;
-  border: 1px solid #eee;
 }
 
 .copyright {
@@ -281,6 +267,7 @@ nav a {
   color: firebrick;
   text-align: start;
 }
+  
 .card-description {
   padding: 0 16px;
   color: goldenrod;
@@ -348,7 +335,7 @@ nav a {
     height: auto;
   }
 
-  .header {
+  .bigHead {
     font-size: 0.5em;
   }
 
