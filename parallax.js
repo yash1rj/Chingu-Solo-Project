@@ -6,11 +6,11 @@ window.addEventListener("scroll", function () {
         limit = parallax.offsetTop + parallax.offsetHeight;
 
     if (scrolledHeight > parallax.offsetTop && scrolledHeight <= limit) {
-        console.log("hi");
+        // console.log("hi");
         parallax.style.backgroundPositionY = (scrolledHeight - parallax.offsetTop) / 1.5 + "px";
 
     } else {
-        console.log("hello");
+        // console.log("hello");
         parallax.style.backgroundPositionY = "0";
     }
 });
